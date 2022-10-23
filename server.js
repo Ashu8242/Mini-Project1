@@ -11,6 +11,7 @@ const user = require("./routes/user");
 const errorHandler = require("./middleware/errorhandle");
 const DB = require("./utils/db");
 
+//Initialized app
 const app = express();
 
 app.use(express.json());
